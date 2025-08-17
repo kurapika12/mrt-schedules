@@ -29,3 +29,12 @@ Proyek ini dibuat untuk mempermudah integrasi data MRT ke dalam aplikasi lain, b
    ```bash
    git clone https://github.com/username/mrt-schedules.git
    cd mrt-schedules
+   go run main.go
+
+---
+
+## 📬Akses API melalui Postman / browser :
+- **GET /stations** → daftar seluruh stasiun
+- **GET /stations/{id}** → detail stasiun berdasarkan ID
+
+Silakan digunakan, dimodifikasi, dan dikembangkan lebih lanjut.
